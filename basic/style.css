@@ -1,0 +1,17 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    padding: 0%;
+}
+
+body{
+    overflow-x:hidden ;
+}
+
+#frame-2 h1{
+    position: relative;
+   font-size: 50vh;
+   white-space:nowrap;
+  
+   
+}
