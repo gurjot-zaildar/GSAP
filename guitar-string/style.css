@@ -1,0 +1,9 @@
+html,body{
+    background-color: black;
+    color: aliceblue;
+}
+
+#string{
+    width: 100%;
+    height: 160px;
+}
