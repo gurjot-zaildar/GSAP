@@ -1,0 +1,47 @@
+@font-face {
+    font-family: machina;
+    src: url(./NeueMachina-Regular.woff2);
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "machina";
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: black;
+}
+
+#page1,#page2,#page3{
+    height: 100vh;
+    width: 100%;
+    padding: 5vw 0;
+}
+
+#move{
+    background-color: rgb(162, 248, 32);
+    display: flex;
+    padding: 3vw 0;
+    overflow: hidden;
+}
+
+.marque img{
+    height: 50px;
+    width: 60px;
+}
+.marque h1{
+    font-size: 30px;
+}
+.marque{
+    display: flex;
+    align-items: center;
+    gap: 5vw;
+    padding: 0 1.5vw;
+    flex-shrink: 0;
+    transform: translateX(-100%);
+}
