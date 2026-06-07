@@ -1,0 +1,266 @@
+@font-face {
+    font-family: machina ;
+    src: url();
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#nav{
+    place-content: space-between;
+    display: flex;
+    padding: 50px 70px;
+    position: relative;
+    
+    #logo{
+        display: flex;
+        gap: 1vw;
+        align-items: center;
+        h1{
+            font-size: 2.3rem;
+        }
+        i{
+            rotate: 45deg;
+            font-size: 3rem
+
+        }
+    }
+    nav{
+        display: flex;
+        gap: 2vw;
+        align-items: center;
+        h4{
+            font-size: 1.4rem;
+        }
+
+        button{
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            border-radius: 12px;
+            font-size: 1.4rem;
+            
+        }
+    }
+}
+
+#hero{
+    display: flex;
+    gap: 2vw;
+    padding: 40px 70px;
+    #content{
+        display: flex;
+        flex-direction: column;
+        gap: 6vh;
+        h1{
+            font-size: 4rem;
+        }
+        p{
+            line-height: 3.2vh;
+        }
+        button{
+            background-color: black;
+            color: rgb(255, 255, 255);
+            padding: 20px;
+            border-radius: 12px;
+            font-size: 1.2rem;
+            font-weight: 600;
+            width: 20vw;
+            
+        }
+
+    }
+}
+
+#div2{
+    #brand{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 50px 70px;
+        img{
+            height: 17vh;
+        }
+    }
+
+    #services{
+        display: flex;
+        padding: 50px 70px;
+        gap: 5vw;
+        h1{
+            background-color: rgb(185, 255, 102);
+            padding: 5px;
+            border-radius: 10px;
+        }
+        p{
+            margin-right: 30vw;
+        }
+    }
+
+    #boxes{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 3vw;
+        padding: 50px 70px;
+        .boxw{
+            background-color: rgb(255, 255, 255);
+            width: 42vw;
+            border-radius: 50px;
+            box-shadow: 0px 10px;
+            border: solid;
+            display: flex;
+            position: relative;
+            padding: 2%;
+            #card-text{
+                display: flex;
+                position: relative;
+                #align{
+                    span{
+                        font-size: 2rem;
+                        font-weight: 700;
+                        background-color: rgb(185, 255, 102);
+                    }
+                    #boxbtn{
+                        align-items: baseline;
+                        margin-top: 11vh;
+                        display: flex;
+                        gap: 10px;
+                        h4{
+                            font-size: 1.5rem;
+                        }
+                        button{
+                            background-color: black;
+                            color: rgb(185, 255, 102);
+                            padding: 7px;
+                            font-size: 2rem;
+                            border-radius: 50%;
+                        }
+                    }
+                }
+        }
+         img{
+                height: 30vh;
+            }
+        }
+        .box{
+            background-color: rgba(0, 0, 0, 0.922);
+            width: 42vw;
+            border-radius: 50px;
+            box-shadow: 0px 10px;
+            border: solid;
+            display: flex;
+            position: relative;
+            padding: 2%;
+            #card-text{
+                display: flex;
+                position: relative;
+                #align{
+                    span{
+                        font-size: 2rem;
+                        font-weight: 700;
+                        background-color: rgb(255, 255, 255);
+                    }
+                    #boxbtn{
+                        align-items: baseline;
+                        margin-top: 11vh;
+                        display: flex;
+                        gap: 10px;
+                        h4{
+                            font-size: 1.5rem;
+                            color: rgb(255, 255, 255);
+                        }
+                        button{
+                            background-color: rgb(255, 255, 255);
+                            color: rgb(0, 0, 0);
+                            padding: 7px;
+                            font-size: 2rem;
+                            border-radius: 50%;
+                        }
+                    }
+                }
+        }
+         img{
+                height: 30vh;
+            }
+        }
+    }
+
+}
+
+#last{
+    padding: 50px 70px;
+    #perposal{
+        display: flex;
+        background-color: rgb(234, 233, 233);
+        border-radius: 50px;
+        padding: 50px 70px;
+        justify-content: space-between;
+        #perposal-text{
+            width: 35vw;
+            p{
+                margin-top: 5vh;
+            }
+           
+           
+            button{
+                background-color: black;
+                color: rgb(255, 255, 255);
+                padding: 10px;
+                font-size: 1.5rem;
+                font-weight: 700;
+                border-radius: 15px;
+                margin-top: 10vh;
+            }
+        }
+        #img-perposal{
+         img{
+            height: 33vh;
+            margin-right: 2vw;
+        }
+        }
+    }
+
+    #case-study{
+       display: flex;
+       padding: 50px 0px;
+        gap: 5vw;
+        h1{
+            background-color: rgb(185, 255, 102);
+            padding: 5px;
+            border-radius: 10px;
+        }
+        
+    }
+
+    #end-box{
+        display: flex;
+        gap: 5vw;
+        color: rgb(255, 255, 255);
+        background-color: rgb(22, 22, 22);
+        border-radius: 50px;
+        .box-end{
+            padding: 50px;
+        }
+        .last-btn{
+            display: flex;
+            gap: 1vw;
+            margin-top: 40px;
+            color: rgb(185, 255, 102);
+            h1{
+                font-size: 1.5rem;
+            }
+            i{
+                font-size: 2rem;
+            }
+        }
+    }
+}

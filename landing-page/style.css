@@ -1,0 +1,242 @@
+@font-face {
+  font-family: machina;
+  src: url();
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+#nav {
+  place-content: space-between;
+  display: flex;
+  padding: 50px 70px;
+  position: relative;
+}
+#nav #logo {
+  display: flex;
+  gap: 1vw;
+  align-items: center;
+}
+#nav #logo h1 {
+  font-size: 2.3rem;
+}
+#nav #logo i {
+  rotate: 45deg;
+  font-size: 3rem;
+}
+#nav nav {
+  display: flex;
+  gap: 2vw;
+  align-items: center;
+}
+#nav nav h4 {
+  font-size: 1.4rem;
+}
+#nav nav button {
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 12px;
+  font-size: 1.4rem;
+}
+
+#hero {
+  display: flex;
+  gap: 2vw;
+  padding: 40px 70px;
+}
+#hero #content {
+  display: flex;
+  flex-direction: column;
+  gap: 6vh;
+}
+#hero #content h1 {
+  font-size: 4rem;
+}
+#hero #content p {
+  line-height: 3.2vh;
+}
+#hero #content button {
+  background-color: black;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 12px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  width: 20vw;
+}
+
+#div2 #brand {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 70px;
+}
+#div2 #brand img {
+  height: 17vh;
+}
+#div2 #services {
+  display: flex;
+  padding: 50px 70px;
+  gap: 5vw;
+}
+#div2 #services h1 {
+  background-color: rgb(185, 255, 102);
+  padding: 5px;
+  border-radius: 10px;
+}
+#div2 #services p {
+  margin-right: 30vw;
+}
+#div2 #boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3vw;
+  padding: 50px 70px;
+}
+#div2 #boxes .boxw {
+  background-color: rgb(255, 255, 255);
+  width: 42vw;
+  border-radius: 50px;
+  box-shadow: 0px 10px;
+  border: solid;
+  display: flex;
+  position: relative;
+  padding: 2%;
+}
+#div2 #boxes .boxw #card-text {
+  display: flex;
+  position: relative;
+}
+#div2 #boxes .boxw #card-text #align span {
+  font-size: 2rem;
+  font-weight: 700;
+  background-color: rgb(185, 255, 102);
+}
+#div2 #boxes .boxw #card-text #align #boxbtn {
+  align-items: baseline;
+  margin-top: 11vh;
+  display: flex;
+  gap: 10px;
+}
+#div2 #boxes .boxw #card-text #align #boxbtn h4 {
+  font-size: 1.5rem;
+}
+#div2 #boxes .boxw #card-text #align #boxbtn button {
+  background-color: black;
+  color: rgb(185, 255, 102);
+  padding: 7px;
+  font-size: 2rem;
+  border-radius: 50%;
+}
+#div2 #boxes .boxw img {
+  height: 30vh;
+}
+#div2 #boxes .box {
+  background-color: rgba(0, 0, 0, 0.922);
+  width: 42vw;
+  border-radius: 50px;
+  box-shadow: 0px 10px;
+  border: solid;
+  display: flex;
+  position: relative;
+  padding: 2%;
+}
+#div2 #boxes .box #card-text {
+  display: flex;
+  position: relative;
+}
+#div2 #boxes .box #card-text #align span {
+  font-size: 2rem;
+  font-weight: 700;
+  background-color: rgb(255, 255, 255);
+}
+#div2 #boxes .box #card-text #align #boxbtn {
+  align-items: baseline;
+  margin-top: 11vh;
+  display: flex;
+  gap: 10px;
+}
+#div2 #boxes .box #card-text #align #boxbtn h4 {
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+}
+#div2 #boxes .box #card-text #align #boxbtn button {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  padding: 7px;
+  font-size: 2rem;
+  border-radius: 50%;
+}
+#div2 #boxes .box img {
+  height: 30vh;
+}
+
+#last {
+  padding: 50px 70px;
+}
+#last #perposal {
+  display: flex;
+  background-color: rgb(234, 233, 233);
+  border-radius: 50px;
+  padding: 50px 70px;
+  justify-content: space-between;
+}
+#last #perposal #perposal-text {
+  width: 35vw;
+}
+#last #perposal #perposal-text p {
+  margin-top: 5vh;
+}
+#last #perposal #perposal-text button {
+  background-color: black;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  border-radius: 15px;
+  margin-top: 10vh;
+}
+#last #perposal #img-perposal img {
+  height: 33vh;
+  margin-right: 2vw;
+}
+#last #case-study {
+  display: flex;
+  padding: 50px 0px;
+  gap: 5vw;
+}
+#last #case-study h1 {
+  background-color: rgb(185, 255, 102);
+  padding: 5px;
+  border-radius: 10px;
+}
+#last #end-box {
+  display: flex;
+  gap: 5vw;
+  color: rgb(255, 255, 255);
+  background-color: rgb(22, 22, 22);
+  border-radius: 50px;
+}
+#last #end-box .box-end {
+  padding: 50px;
+}
+#last #end-box .last-btn {
+  display: flex;
+  gap: 1vw;
+  margin-top: 40px;
+  color: rgb(185, 255, 102);
+}
+#last #end-box .last-btn h1 {
+  font-size: 1.5rem;
+}
+#last #end-box .last-btn i {
+  font-size: 2rem;
+}
