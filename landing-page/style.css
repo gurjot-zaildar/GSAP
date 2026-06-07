@@ -239,4 +239,8 @@ html, body {
 }
 #last #end-box .last-btn i {
   font-size: 2rem;
+  transition: ease 0.2s;
+}
+#last #end-box .last-btn i:hover {
+  rotate: 45deg;
 }
